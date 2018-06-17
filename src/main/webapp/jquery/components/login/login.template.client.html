@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href=
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous">
+    </script>
+    <script src="../../services/user.service.client.js"></script>
+    <script src="login.controller.client.js"></script>
+    <title>Course Manager</title>
+</head>
+<body>
+<div class="container">
+    <h1>Sign In</h1>
+    <form>
+        <div class="form-group">
+            <label for="usernameFld">Username</label>
+            <input type="email" class="form-control" id="usernameFld" aria-describedby="emailHelp"
+                   placeholder="Username">
+        </div>
+        <div class="form-group">
+            <label for="passwordFld">Password</label>
+            <input type="password" class="form-control" id="passwordFld" placeholder="Password">
+        </div>
+        <button id=loginBtn type="button" class="btn btn-primary btn-block">Sign In</button>
+        <div class="pull-left">
+            <a href="/jquery/components/register/register.template.client.html">Forgot Password</a>
+        </div>
+        <div class="pull-right">
+            <a href="/jquery/components/register/register.template.client.html">Sign Up</a>
+        </div>
+    </form>
+</div>
+</body>
+</html>
